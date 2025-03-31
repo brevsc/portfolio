@@ -1,0 +1,68 @@
+.about-me {
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
+  align-items: center;
+
+  & h1 {
+    font-weight: 700;
+    font-size: 4.5rem;
+    line-height: 1.125;
+    margin-bottom: 30px;
+    position: relative;
+  }
+
+  & h1::before {
+    content: "";
+    display: block;
+    width: 130px;
+    height: 100px;
+    background: url("../assets/decoration.svg") no-repeat center;
+    position: absolute;
+    top: -15px;
+    left: -40px;
+    z-index: -1;
+  }
+
+  & p {
+    font-size: 1rem;
+    color: #373737;
+  }
+}
+
+@media (max-width: 1000px) {
+  .about-me {
+    & h1 {
+      font-size: 3rem;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .about-me {
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+
+    & h1 {
+      font-size: 2rem;
+    }
+
+    & h1::before {
+      width: 30px;
+      height: 10px;
+      left: 0px;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .about-me {
+    grid-template-columns: 1fr;
+    & img {
+      display: none;
+    }
+  }
+}

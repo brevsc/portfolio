@@ -1,4 +1,4 @@
-.header{
+.header {
   background: #121212;
   max-width: 1200px;
   margin: 0 auto;
@@ -8,13 +8,13 @@
   align-items: center;
 }
 
-.header-menu{
+.header-menu {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
-  & a{
-    font-family: 'Roboto', sans-serif;
+  & a {
+    font-family: "Roboto", sans-serif;
     font-weight: 600;
     color: #fafafa;
     text-decoration: none;
@@ -25,17 +25,14 @@
   }
 }
 
-@media (max-width: 800px){
-  .header{
+@media (max-width: 800px) {
+  .header {
     flex-direction: column;
     gap: 40px;
     padding: 20px;
-    & a{
+    & a {
       background: #212121;
       border-radius: 4px;
     }
   }
 }
-
-
-

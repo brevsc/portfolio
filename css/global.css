@@ -1,14 +1,17 @@
-body{
+body {
   color: #121212;
   margin: 0px;
-  font-family: 'Fira Sans', Arial, sans-serif;
+  font-family: "Fira Sans", Arial, sans-serif;
 }
 
-h1, h2, h3, p{
+h1,
+h2,
+h3,
+p {
   margin: 0px;
 }
 
-ul{
+ul {
   margin: 0px;
   padding: 0px;
   list-style: none;
