@@ -1,0 +1,19 @@
+.header{
+  background: #121212;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  & a{
+    color: #fafafa;
+    text-decoration: none;
+  }
+}
+
+.header-menu{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+}
+
+
+
