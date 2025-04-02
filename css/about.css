@@ -7,6 +7,55 @@
   gap: 100px;
   align-items: center;
 
+  & .buttons {
+    margin-top: 30px;
+    grid-column: 2 / -1;
+    place-content: start;
+    display: flex;
+    gap: 40px;
+    & a {
+      text-decoration: none;
+    }
+  }
+
+  & .zap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background: #198754;
+    border-radius: 6px;
+    width: 120px;
+    height: 24px;
+    padding: 20px;
+    text-align: center;
+    & p {
+      color: #ffffff;
+    }
+    &:hover{
+      background: #0f5c38;
+    }
+  }
+
+  & .resume {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background: #9b67d2;
+    border-radius: 6px;
+    width: 120px;
+    height: 24px;
+    padding: 20px;
+    text-align: center;
+    & p {
+      color: #ffffff;
+    }
+    &:hover{
+      background: #9235f5;
+    }
+  }
+
   & h1 {
     font-weight: 700;
     font-size: 4.5rem;

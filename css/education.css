@@ -15,6 +15,16 @@
     grid-template-columns: 1fr 2fr;
     gap: 100px;
     position: relative;
+    &::before {
+      content: "";
+      display: block;
+      width: 66px;
+      height: 5px;
+      background: url("../assets/optmized/separator.svg") no-repeat center;
+      position: absolute;
+      top: -2.5px;
+      right: calc(50%);
+    }
     &::after {
       content: "";
       display: block;
