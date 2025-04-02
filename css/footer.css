@@ -1,0 +1,12 @@
+.footer {
+  background: #000000;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 65px 70px;
+
+  & p {
+    margin-top: 80px;
+    font-size: 1.25rem;
+    color: #ffffff;
+  }
+}

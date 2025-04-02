@@ -13,18 +13,17 @@
     line-height: 1.125;
     margin-bottom: 30px;
     position: relative;
-  }
-
-  & h1::before {
-    content: "";
-    display: block;
-    width: 130px;
-    height: 100px;
-    background: url("../assets/decoration.svg") no-repeat center;
-    position: absolute;
-    top: -15px;
-    left: -40px;
-    z-index: -1;
+    &::before {
+      content: "";
+      display: block;
+      width: 130px;
+      height: 100px;
+      background: url("../assets/decoration.svg") no-repeat center;
+      position: absolute;
+      top: -15px;
+      left: -40px;
+      z-index: -1;
+    }
   }
 
   & p {
@@ -48,12 +47,11 @@
 
     & h1 {
       font-size: 2rem;
-    }
-
-    & h1::before {
-      width: 30px;
-      height: 10px;
-      left: 0px;
+      &::before {
+        width: 30px;
+        height: 10px;
+        left: 0px;
+      }
     }
   }
 }
