@@ -12,6 +12,8 @@
     grid-column: 2 / -1;
     place-content: start;
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     gap: 40px;
     & a {
       text-decoration: none;
@@ -110,6 +112,9 @@
     grid-template-columns: 1fr;
     & .avatar {
       display: none;
+    }
+    & .buttons{
+      place-content: center;
     }
   }
 }
