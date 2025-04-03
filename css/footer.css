@@ -40,5 +40,8 @@
   .footer-container {
     grid-template-columns: 1fr !important;
     gap: 40px !important;
+    & .footer-contacts {
+      place-self: start !important;
+    }
   }
 }
